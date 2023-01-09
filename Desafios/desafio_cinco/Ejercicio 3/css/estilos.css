@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* INICIO NAVBAR */
+
+#barra-colorazul{
+    height: 30px;
+    background-color: #0e30dacc;
+}
+
+#imagen{
+    width: 80%;
+}
+
+#contenedor-imagen{
+  width: 80px;
+}
+
+#home-nav>a:first-child{
+    font-weight: bold;
+}
+
+#home-nav{
+    padding-top: 5px;
+    font-size: 18px;
+    width: 100;
+}
+
+
+#navbar{
+    margin: 10px;
+    display: flex;
+}
+
+#home-nav>a{
+    font-family: 'Roboto', sans-serif;
+    color:#04146c;
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* FIN NAVBAR */
+
+/* MAIN */
+
+#contenedor-main{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contenedor-main>div>h1{
+    margin-top: 50px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 72px;
+    color: #0a2ff1;
+}
+
+#contenedor-main>div>p{
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    color:#04146c;
+    font-size: 26px;
+}
+
+#imagen-main{
+    margin: 20px;
+    height: 500px;
+    background-image: url("../img/M5-Desafío1-img.png");
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+/* ------------------------------------- */
+
+#contenedor-div{
+    display: flex;
+}
+
+#contenedor-div>div{
+    margin-left: 50px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+#contenedor-div>img{
+    width: 50%;
+    align-items: flex-end;
+    margin-bottom: -50px;
+}
+
+#contenedor-div>div>h1{
+    margin-bottom: 35px;
+    font-family: 'Roboto Slab', serif;
+    color: #0a2ff1;
+    font-size: 45px;
+}
+
+h3{
+    font-weight: 700;
+    color: #04146c;
+    font-size: 24px;
+}
+
+#p-contenedor-div{
+    font-weight: 400;
+    font-size: 24px;
+    color: #04146c;
+}
+
+footer{
+    height: 100px;
+    background-color: #0e30dacc;
+}
+
+footer>img{
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 15%;
+}
+
+
+
+

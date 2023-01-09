@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=MuseoModerno:wght@700&family=Roboto&display=swap');
+
+body{
+    background-color: #edf7ff;
+}
+
+main{
+    margin: 0 100pt 0 100pt;
+}
+
+h1{
+    font-family: 'MuseoModerno', cursive;
+    color: #0a2ff1;
+    font-size: 70pt;
+}
+
+h2{
+    font-family: 'Asap', sans-serif;
+    color: #0a2ff1;
+    font-size: 30pt;
+}
+
+p{
+    font-family: 'Asap', sans-serif;
+    color: #04146c;
+    font-size: 18pt;
+}
+
+h3{
+    font-family: 'MuseoModerno', cursive;
+    color:#0a2ff1;
+    font-size: 26pt;
+}
+
+ul{
+    font-family: 'Asap', sans-serif;
+    font-size: 16pt;
+    color: #04146c;
+}
+
+h4{
+    color:#8a9af1;
+    font-size: 70pt;
+    font-family: 'MuseoModerno', cursive;
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Coiny&family=Montserrat:wght@600;900&family=MuseoModerno:wght@700&family=Poppins:wght@500;700&family=Roboto&display=swap');
+
+
+body { 
+    font-family: 'Poppins', sans-serif;
+}
+
+div{
+    width: 100%;
+}
+
+span{
+    background-color:#3ffff3;
+}
+
+h1{
+    font-size: 78px;
+    color: #0a2ff1;
+}
+
+p{
+    color: #0a2ff1;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+img{
+background-image: url("/img/fondo.JPG");
+width: 400px;
+}
